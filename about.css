@@ -1,0 +1,298 @@
+/*
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Blinker', sans-serif;
+*/
+
+/* SLIDE IN */
+/* -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease; */
+
+/*FADE IN*/
+/* animation: fadein 2s;
+-moz-animation: fadein 2s;
+-webkit-animation: fadein 2s;
+-o-animation: fadein 2s;  */
+.first
+{
+  margin: auto;
+}
+.sectionBar
+{
+  display: grid;
+  grid-template-columns: auto;
+  background: url('https://imaginegnats.com/wp-content/uploads/2015/03/B031-1115-brussels-washer-dark-purple.jpg');  padding-left: 120px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 150%;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  box-shadow: 3px 3px 3px -3px lightgrey;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+}
+.titleBar
+{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  top: 0px;
+  position: sticky;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  box-shadow: 3px 3px 3px -3px lightgrey;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  z-index: 999;
+}
+.images
+{
+  height: auto;
+}
+.header
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+#mainHeader
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  font-family: 'Roboto', sans-serif;
+}
+.defaultButtons
+{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+#webName
+{
+  grid-area: pbutton;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 20px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #1b0221;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: solid white;
+  opacity: .9;
+}
+#webName:hover
+{
+  background-color: purple;
+}
+#aboutButton
+{
+  grid-area: abutton;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #1b0221;
+  padding: 20px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: solid white;
+  opacity: .9;
+}
+#aboutButton:hover
+{
+  background-color: purple;
+}
+#photosButton
+{
+  grid-area: pbutton;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 20px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #1b0221;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: solid white;
+  opacity: .9;
+}
+#photosButton:hover
+{
+  background-color: purple;
+}
+#searchBox
+{
+  grid-area: pbutton;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 20px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #1b0221;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: solid white;
+  opacity: .9;
+}
+#searchBox:hover
+{
+  background-color: purple;
+}
+.dropdown{
+ position: inline-block;
+}
+.dropdown-content{
+ display:none;
+ opacity: .9;
+ background-color: #1b0221;
+ min-width: 160px;
+ box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2) ;
+ z-index: 1000;
+ position:absolute;
+}
+/* links inside the dropdown */
+.dropdown-content a{
+ font-family: 'Oswald', sans-serif;
+ color: white;
+ text-align: center;
+ background: #1b0221;
+ padding: 20px 16px;
+ text-decoration: none;
+ display: block;
+}
+/* change color of dropdown links of hover */
+.dropdown-content a:hover
+{
+  opacity: .9;
+  background-color: purple;
+}
+/* show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display:block;
+  width: 25%;
+}
+/* chnage bkgrd color of dropdown button when dropdown content is shown */
+.dropdown:hover #searchBox {background-color: purple;}
+.paragraphGrid
+{
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: 3fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 100px;
+  padding-top: 100px;
+  margin-bottom: 200px;
+  margin-left: 450px;
+  margin-right: 450px;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
+}
+.paragraphs
+{
+  background-color: white;
+  box-shadow: 3px 3px 3px -3px lightgrey;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  animation: textImage 2s;
+  border-top: solid black;
+}
+.paragraphTitle
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 200%;
+}
+.paragraphPassages
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  line-height: 2;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 100%;
+}
+#p1
+{
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#content
+{
+  padding-bottom: 120px;
+  padding-top: 50px;
+  background: #0F0E16;
+  padding-bottom: auto;
+  box-shadow: 3px 3px 3px -3px lightgrey;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+}
+#footer
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 500px;
+  margin-right: 500px;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 80%;
+  text-align: center;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes textImage {
+  from {top: -200px;}
+  to {top: 0px;}
+}
